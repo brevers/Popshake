@@ -1,0 +1,612 @@
+body {
+    background-image: url(../images/anclafondo2.png);
+    background-size: 70px;
+    background-attachment: fixed;
+    
+
+}
+
+/* Main */
+nav {
+
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    z-index: 99;
+    opacity: 0.9;
+
+}
+
+.logo {
+    justify-self: flex-start;
+}
+
+.logo1 {
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 5px 30px;
+    width: 70px;
+}
+
+@media (max-width: 665px) .logo1 {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-left: 220px;
+
+
+}
+
+nav ul li a {
+    position: relative;
+    padding: 20px;
+    bottom: 50px;
+    color: orange;
+    font-family: "Boink Plain", "Boink LET", "Bauhaus 93";
+    letter-spacing: 2px;
+    line-height: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: skyblue;
+
+}
+audio{
+    margin-left: 40%;
+    position:absolute;
+    bottom: 1%;
+}
+
+/* Home Section */
+.popshakeman {
+    position: static;
+    width: 100%;
+
+}
+
+.about h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: orange;
+
+}
+
+h1:hover {
+    color: skyblue;
+}
+
+.about {
+    background: black;
+    color: white;
+    opacity: 0.9;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Boink Plain", "Boink LET", "Bauhaus 93";
+    line-height: 25px;
+    padding: 40px;
+}
+
+.team {
+    background: black;
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+
+#photo1 {
+    width: 310px;
+    margin-top: 30px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.elem1:hover {
+    color: orange;
+    font-family: "Boink LET", "Bauhaus 93";
+    right: 20px;
+}
+
+#photo2 {
+    width: 230px;
+    margin-top: 30px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.elem2:hover {
+    color: orange;
+    font-family: "Boink LET", "Bauhaus 93";
+    left: 30px;
+}
+
+#photo3 {
+    width: 310px;
+    margin-top: 30px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.elem3:hover {
+    color: orange;
+    font-family: "Boink LET", "Bauhaus 93";
+
+}
+
+.elem2 figcaption {
+    margin-left: 110px;
+    font-size: 20px;
+    text-shadow: 0 0 30px;
+}
+
+div h2 {
+    color: orange;
+    font-family: "Boink LET", "Bauhaus 93";
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    margin-bottom: 50px;
+}
+div h2:hover{
+    color:skyblue;
+}
+
+.boton1 {
+    font-family: "Boink LET", "Bauhaus 93";
+    font-size: 20px;
+    padding: 15px 40px;
+    color: white;
+    background-color: black;
+    margin-left: 45%;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.boton1:hover {
+    color: skyblue;
+    background-color: white;
+    box-shadow: 0 0 20px #4f9;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    text-decoration: none;
+}
+
+.gmap {
+    margin-top: 90px;
+    width: 100%;
+    height: 100px;
+}
+
+.gmap:hover {
+    height: 170px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 9px;
+
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    color: white;
+}
+
+.face i,
+.tw i,
+.insta i {
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.social i:hover {
+    color: skyblue;
+}
+
+/* Our Products Section */
+
+.smoothies{
+    background-color:black;
+    opacity: 0.9;
+    font-family: "Boink LET", "Bauhaus 93";
+    color:#3678D3  ;
+    margin:30px 90px;
+    padding: 10px 80px;
+    text-shadow: 2px 1px white;
+    width: 50%;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.listsmoo{
+    display: flex;
+    justify-content: space-around;
+}
+.listsmoo .foto1{
+    width:249px;
+    height: 364px;
+    background-image: url(../images/fresas.jpg);
+        
+}
+
+div#info1{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    color:white;
+    opacity: 0.6;
+    text-align: center;
+    visibility: hidden;
+}
+
+div.foto1:hover div#info1{
+    visibility: visible;
+}
+
+.listsmoo .foto2{
+    width:251px;
+    height: 364px;
+    background-image: url(../images/rosa.jpg);
+        
+}
+
+div#info2{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    color:white;
+    text-align: center;
+    opacity: 0.6;
+    visibility: hidden;
+}
+
+div.foto2:hover div#info2{
+    visibility: visible;
+}
+
+.listsmoo .foto3{
+    width:249px;
+    height: 364px;
+    background-image: url(../images/morao.jpg);
+        
+}
+
+div#info3{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    color:white;
+    text-align: center;
+    opacity: 0.6;
+    visibility: hidden;
+}
+
+div.foto3:hover div#info3{
+    visibility: visible; }
+
+.listsmoo .foto4{
+    width:249px;
+    height: 364px;
+    background-image: url(../images/sandia.jpg);
+        
+}
+
+div#info4{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    color:white;
+    text-align: center;
+    opacity: 0.6;
+    visibility: hidden;
+}
+
+div.foto4:hover div#info4{
+    visibility: visible; 
+}
+
+
+
+
+
+#estpri:hover{
+    opacity:0.5;  
+}
+
+#estsec:hover{
+    opacity:0.5;
+}
+#estter:hover{
+    opacity:0.5;
+}
+#estcua:hover{
+    opacity:0.5;
+    
+}
+.shotsall{
+    display: flex;
+    margin:10px 40px;
+    margin-bottom: 60px;
+    
+}
+
+#shota, #shote, #shoti, #shoto {
+    width: 50%;
+    border:solid;
+    margin-left: 40px;
+    
+}
+
+#shota:hover{
+    
+}
+
+
+
+.shk{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-left: 90px;
+}
+
+#banana{
+    width: 70%; 
+    margin:5%;
+    border:solid 2px;
+    
+    
+}
+#spinach{
+    width: 70%;
+    margin:5%;
+    border: solid 2px;
+}
+
+
+
+
+
+
+
+/* New Recipies Section */
+
+.maindiv{
+    background: #CAD0D8;
+    width: 90%;
+    max-width: 1250px;
+    min-height: 1000px;
+    margin:5%;
+}
+.tittlle h1{
+    color:#3678D3;
+    font-family: "Boink LET", "Bauhaus 93";
+    font-size:27px;
+    margin:2% 10%;
+    margin-right: 32%;
+    position:absolute;
+    text-shadow: 2px 2px white;
+    -webkit-text-stroke: 1px black;
+}
+
+.centro{
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    
+}
+.izquierda{
+    width: 70%;
+    margin-left: 5%;
+    font-family: "Boink LET", "Bauhaus 93";
+}
+.groupv{
+    margin-top: 2%;
+    display: flex;
+    
+}
+.groupv p{
+    
+    font-size: 15px;
+}
+.zumo{
+    height: 130px;
+    width: 240px;
+}
+.groupv figcaption{
+    margin:10px;
+    text-decoration: none;
+    
+}
+.groupv figcaption p{
+    color:red;
+    margin:6px;
+}
+.groupv figcaption p:hover{
+    color:orange;
+    cursor:pointer;
+}
+
+.aside{
+    margin:3%;
+    font-family: "Boink LET", "Bauhaus 93";
+    text-align: center;
+    background-color: orange;
+    border:solid 2px;
+    border-radius: 10px;
+    width: 30%;
+    
+}
+.story{
+    margin:10px;
+}
+
+.quest{
+    margin-left:120px;
+    width: 50%;
+    
+}
+.quest .shareci{
+    margin-top:10px;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.boto{
+    width: 80px;
+    height: 30px;
+    margin-left: 10%;
+}
+
+
+
+
+
+/* Contact Section */
+.form {
+    font-family: "Boink LET", "Bangers", "Bauhaus 93";
+    background-color: #FFC04D;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 1000px;
+    width: 60%;
+    border-style: double;
+    border-width: 10px;
+    font-size: 20px;
+}
+
+.form h1 {
+    font-size: 40px;
+
+}
+
+.inside {
+    margin: 4%;
+}
+
+.cabe h3 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.firstname {
+    margin-right: 30px;
+    height: 25px;
+    width: 27.6%
+}
+
+.form label {
+    color: #4d8cff;
+    font-size: 16px;
+    padding: 1px;   
+}
+
+.email {
+    height: 25px;
+    width: 60%;
+}
+
+.box {
+    height: 180px;
+    width: 80%;
+}
+
+/* Stars */
+
+
+
+.rating {
+margin-top: 20px;
+    
+
+}
+
+.rating > input {
+    display: none;
+    
+}
+
+.rating > label:before {
+    margin: 5px;
+    font-size: 1.2em;
+    font-family: FontAwesome;
+    content:"\f005";
+}
+
+
+/* StarsHover */
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: deepskyblue;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+    color: lightblue;
+}
+
+
+/* End Stars */
+.submit {
+    margin-left: 20%;
+    margin-top: 60px;
+    height: 40px;
+    width: 110px;
+    background-color: #4d8cff;
+    color: white;
+    border-radius: 20px;
+}
+
+.submit:hover {
+    color: skyblue;
+    background-color: white;
+    box-shadow: 0 0 20px #4f9;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-decoration: none;
+}
